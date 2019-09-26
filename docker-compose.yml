@@ -1,0 +1,39 @@
+app:
+  build: .
+  tty: true
+  stdin_open: true
+  volumes:
+    - .:/umbrella
+  ports:
+    - 4000:4000
+
+web:
+  extends: app
+  container_name: web
+  environment:
+    - USER
+    - USERNAME
+    - MIX_ENV=dev
+    - PG_HOST=db
+    - PG_USERNAME=postgres
+    - PG_PASSWORD=postgres
+  links:
+    - db
+
+tests:
+  extends: app
+  command: mix do coveralls
+  environment:
+    - USER
+    - USERNAME
+    - MIX_ENV=test
+    - PG_HOST=db
+    - PG_USERNAME=postgres
+    - PG_PASSWORD=postgres
+  links:
+    - db
+
+db:
+  image: postgres:9.5
+  environment:
+    - POSTGRES_PASSWORD=postgres

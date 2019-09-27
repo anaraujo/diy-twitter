@@ -1,4 +1,4 @@
-defmodule DiyTwitter.Accounts.Users do
+defmodule DiyTwitter.Accounts.User do
   use Ecto.Schema
   import Ecto.Changeset
 
@@ -10,6 +10,7 @@ defmodule DiyTwitter.Accounts.Users do
     field :name, :string
     field :password_hash, :string
     field :phone, :string
+    field :profile_avatar, :string
     field :username, :string
     field :website, :string
 
@@ -17,9 +18,9 @@ defmodule DiyTwitter.Accounts.Users do
   end
 
   @doc false
-  def changeset(users, attrs) do
-    users
-    |> cast(attrs, [:name, :username, :phone, :email, :password_hash, :bio, :location, :website, :birth_date])
-    |> validate_required([:name, :username, :phone, :email, :password_hash, :birth_date])
+  def changeset(user, attrs) do
+    user
+    |> cast(attrs, [:name, :username, :email, :password_hash, :phone, :bio, :location, :website, :birth_date, :profile_avatar])
+    |> validate_required([:name, :username, :email, :password_hash, :phone, :birth_date])
   end
 end

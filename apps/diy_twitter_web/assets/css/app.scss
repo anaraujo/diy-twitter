@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/font-awesome/css/font-awesome.css";
+
+$grid-gutter-width: 24px;
+
+$container-max-widths: (
+  xs: 320px,
+  sm: 540px,
+  md: 960px,
+  lg: 960px,
+  xl: 960px
+) !default;

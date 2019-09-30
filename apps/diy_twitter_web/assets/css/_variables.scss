@@ -1,0 +1,19 @@
+// Colors
+$dark-blue: #10171e;
+$dark-bg-blue: #1B81D8;
+$light-bg-blue: #1D8DEE;
+$light-blue: #1DA1F2;
+$white: white;
+
+// Fonts
+$font-family-base: 'Arimo', sans-serif;
+
+// Bootstrap Grid
+$grid-gutter-width: 24px;
+$container-max-widths: (
+  xs: 320px,
+  sm: 540px,
+  md: 960px,
+  lg: 960px,
+  xl: 960px
+) !default;

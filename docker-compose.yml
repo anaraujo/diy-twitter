@@ -3,7 +3,8 @@ app:
   tty: true
   stdin_open: true
   volumes:
-    - .:/umbrella
+    - ./not-twitter:/umbrella
+    - ./scout_apm_elixir:/scout
   ports:
     - 4000:4000
 

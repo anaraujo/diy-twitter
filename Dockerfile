@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV MIX_ENV dev
 
 RUN mkdir -p /umbrella
-COPY . /umbrella
+COPY ./not-twitter /umbrella
 WORKDIR /umbrella
 
 RUN mix deps.get

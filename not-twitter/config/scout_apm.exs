@@ -5,7 +5,8 @@ use Mix.Config
 
 config :scout_apm,
   name: "DiyTwitter", # The app name that will appear within the Scout UI
-  key: "FJNYHcYlZzQACcEiwnzX"
+  key: "FJNYHcYlZzQACcEiwnzX",
+  log_level: :debug
 
 config :phoenix, :template_engines,
   eex: ScoutApm.Instruments.EExEngine,

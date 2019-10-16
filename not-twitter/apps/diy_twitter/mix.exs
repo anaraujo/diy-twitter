@@ -39,7 +39,7 @@ defmodule DiyTwitter.MixProject do
       {:ecto_sql, "~> 3.1"},
       {:postgrex, ">= 0.0.0"},
       {:jason, "~> 1.0"},
-      {:scout_apm, path: "/scout"}
+      {:scout_apm, path: "deps/scout_apm", override: true}
     ]
   end
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="ELIXIR_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../scout_apm">
+      <sourceFolder url="file://$MODULE_DIR$/../scout_apm/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../scout_apm_elixir/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../scout_apm/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../scout_apm_elixir/assets/node_modules/phoenix" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../scout_apm_elixir/assets/node_modules/phoenix_html" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../scout_apm_elixir/cover" />
+      <excludeFolder url="file://$MODULE_DIR$/../scout_apm/deps" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../scout_apm_elixir/doc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../scout_apm_elixir/logs" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

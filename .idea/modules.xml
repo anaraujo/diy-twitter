@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/approximate_histogram//approximate_histogram.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/approximate_histogram//approximate_histogram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/bunt//bunt.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/bunt//bunt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/connection//connection.iml" filepath="$PROJECT_DIR$/not-twitter/deps/connection//connection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/credo//credo.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/credo//credo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/db_connection//db_connection.iml" filepath="$PROJECT_DIR$/not-twitter/deps/db_connection//db_connection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/decimal//decimal.iml" filepath="$PROJECT_DIR$/not-twitter/deps/decimal//decimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/dialyxir//dialyxir.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/dialyxir//dialyxir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/apps/diy_twitter//diy_twitter.iml" filepath="$PROJECT_DIR$/not-twitter/apps/diy_twitter//diy_twitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/apps/diy_twitter_web//diy_twitter_web.iml" filepath="$PROJECT_DIR$/not-twitter/apps/diy_twitter_web//diy_twitter_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/earmark//earmark.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/earmark//earmark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/ecto//ecto.iml" filepath="$PROJECT_DIR$/not-twitter/deps/ecto//ecto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/ecto_sql//ecto_sql.iml" filepath="$PROJECT_DIR$/not-twitter/deps/ecto_sql//ecto_sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/ex_doc//ex_doc.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/ex_doc//ex_doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/excoveralls//excoveralls.iml" filepath="$PROJECT_DIR$/not-twitter/deps/excoveralls//excoveralls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/file_system//file_system.iml" filepath="$PROJECT_DIR$/not-twitter/deps/file_system//file_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/gettext//gettext.iml" filepath="$PROJECT_DIR$/not-twitter/deps/gettext//gettext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/jason//jason.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/jason//jason.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/makeup//makeup.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/makeup//makeup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/makeup_elixir//makeup_elixir.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/makeup_elixir//makeup_elixir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/mime//mime.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/mime//mime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/nimble_parsec//nimble_parsec.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/nimble_parsec//nimble_parsec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter//not-twitter.iml" filepath="$PROJECT_DIR$/not-twitter//not-twitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/phoenix//phoenix.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/phoenix//phoenix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/phoenix_ecto//phoenix_ecto.iml" filepath="$PROJECT_DIR$/not-twitter/deps/phoenix_ecto//phoenix_ecto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/phoenix_html//phoenix_html.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/phoenix_html//phoenix_html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/phoenix_live_reload//phoenix_live_reload.iml" filepath="$PROJECT_DIR$/not-twitter/deps/phoenix_live_reload//phoenix_live_reload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/phoenix_pubsub//phoenix_pubsub.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/phoenix_pubsub//phoenix_pubsub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/phoenix_slime//phoenix_slime.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/phoenix_slime//phoenix_slime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/plug//plug.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/plug//plug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/plug_cowboy//plug_cowboy.iml" filepath="$PROJECT_DIR$/not-twitter/deps/plug_cowboy//plug_cowboy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/plug_crypto//plug_crypto.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/plug_crypto//plug_crypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/postgrex//postgrex.iml" filepath="$PROJECT_DIR$/not-twitter/deps/postgrex//postgrex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm//scout_apm.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm//scout_apm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/slime//slime.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/slime//slime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/ssl_verify_fun//ssl_verify_fun.iml" filepath="$PROJECT_DIR$/not-twitter/deps/scout_apm/deps/ssl_verify_fun//ssl_verify_fun.iml" />
+    </modules>
+  </component>
+</project>

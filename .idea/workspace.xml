@@ -1,95 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3903d7ab-1dcf-488f-ab45-769e189e231a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/not-twitter/apps/diy_twitter/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/not-twitter/apps/diy_twitter/mix.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/config/scout_apm.exs" beforeDir="false" afterPath="$PROJECT_DIR$/not-twitter/config/scout_apm.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/.formatter.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/config/config.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/config/dev.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/config/prod.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/config/test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/mix/tasks/scout.test_config.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/agent_note.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/application.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/cache.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/collector.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/commands.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/config.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/config/application.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/config/coercions.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/config/defaults.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/config/env.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/config/null.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/context.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/core.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/core/agent_manager.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/core/manifest.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/devtrace.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/devtrace/plug.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/direct_analysis_store.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/instrumentation.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/instruments/ecto_logger.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/instruments/ecto_telemetry.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/instruments/eex_engine.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/instruments/exs_engine.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/instruments/samplers/memory.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/instruments/slime_engine.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/internal/context.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/internal/duration.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/internal/job_record.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/internal/layer.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/internal/metric.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/internal/web_trace.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/logger.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/metric_set.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/payload/context.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/payload/metadata.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/payload/metric.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/payload/slow_transaction.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/persistent_histogram.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/plugs/controller_timer.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/scope_stack.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/scored_item_set.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/tracing.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/tracing/annotations.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/tracing/timing.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/tracing/transaction.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/tracked_request.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/utils.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/lib/scout_apm/watcher.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/mix.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/mix.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/priv/static/devtrace/xml_http_script.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/cache_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/config/coercion_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/config_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/instruments/ecto_logger_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/instruments/ecto_telemetry_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/instruments/eex_engine_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/instruments/exs_engine_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/internal/job_record_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/logger_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/metric_set_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/payload/metadata_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/plugs/controller_timer_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/scored_item_set_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/tracing_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm/tracked_request_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/scout_apm_test.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/support/templates/simple.html.eex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/support/templates/simple.json.exs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/support/test_collector.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/support/test_plug_app.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/support/test_tracing.ex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/not-twitter/deps/scout_apm_elixir/test/test_helper.exs" beforeDir="false" />
-    </list>
+    <list default="true" id="3903d7ab-1dcf-488f-ab45-769e189e231a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/not-twitter/assets/node_modules/phoenix/" />
     <ignored path="$PROJECT_DIR$/not-twitter/assets/node_modules/phoenix_html/" />
     <ignored path="$PROJECT_DIR$/not-twitter/cover/" />
@@ -187,62 +99,7 @@
             <path>
               <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
               <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="diy_twitter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="diy_twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="diy_twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="diy_twitter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="diy_twitter_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="diy_twitter_web" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
               <item name="deps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="deps" type="462c0819:PsiDirectoryNode" />
-              <item name="scout_apm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="deps" type="462c0819:PsiDirectoryNode" />
-              <item name="scout_apm" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="not-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="not-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="deps" type="462c0819:PsiDirectoryNode" />
-              <item name="scout_apm" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="scout_apm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,6 +108,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -282,12 +140,12 @@
       <updated>1571230210952</updated>
       <workItem from="1571230215380" duration="525000" />
       <workItem from="1571241236589" duration="2461000" />
-      <workItem from="1571245360708" duration="350000" />
+      <workItem from="1571245360708" duration="676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3336000" />
+    <option name="totallyTimeSpent" value="3662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="801" extended-state="0" />

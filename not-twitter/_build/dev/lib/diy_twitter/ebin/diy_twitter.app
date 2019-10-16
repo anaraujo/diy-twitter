@@ -1,9 +1,0 @@
-{application,diy_twitter,
-             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,jason,
-                             postgrex,ecto_sql,scout_apm]},
-              {description,"diy_twitter"},
-              {modules,['Elixir.DiyTwitter','Elixir.DiyTwitter.Application',
-                        'Elixir.DiyTwitter.Repo']},
-              {registered,[]},
-              {vsn,"0.1.0"},
-              {mod,{'Elixir.DiyTwitter.Application',[]}}]}.

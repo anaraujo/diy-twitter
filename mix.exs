@@ -30,7 +30,10 @@ defmodule DiyTwitter.Umbrella.MixProject do
   # Dependencies listed here are available only for this project
   # and cannot be accessed from applications inside the apps folder
   defp deps do
-    [{:excoveralls, "~> 0.10.6", only: :test}]
+    [
+      {:excoveralls, "~> 0.10.6", only: :test},
+      {:scout_apm, path: "deps/scout_apm", override: true}
+    ]
   end
 
   defp aliases do

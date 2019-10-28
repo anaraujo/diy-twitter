@@ -9,7 +9,7 @@ WORKDIR /umbrella
 
 RUN mix deps.get
 
-RUN cd apps/diy_twitter_web/assets && \
+RUN cd apps/not_twitter_web/assets && \
   npm install --silent
 
 RUN mix phx.digest

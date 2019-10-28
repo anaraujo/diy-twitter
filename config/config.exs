@@ -10,19 +10,19 @@
 use Mix.Config
 
 # Configure Mix tasks and generators
-config :diy_twitter,
-  ecto_repos: [DiyTwitter.Repo]
+config :not_twitter,
+  ecto_repos: [NotTwitter.Repo]
 
-config :diy_twitter_web,
-  ecto_repos: [DiyTwitter.Repo],
-  generators: [context_app: :diy_twitter]
+config :not_twitter_web,
+  ecto_repos: [NotTwitter.Repo],
+  generators: [context_app: :not_twitter]
 
 # Configures the endpoint
-config :diy_twitter_web, DiyTwitterWeb.Endpoint,
+config :not_twitter_web, NotTwitterWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "4MYtNU4mz2sy/7ZTlGbrKTqhrUecAINE5hEnm7ypQxHe+UvZeUOcXQg5kso7/kbX",
-  render_errors: [view: DiyTwitterWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: DiyTwitterWeb.PubSub, adapter: Phoenix.PubSub.PG2]
+  render_errors: [view: NotTwitterWeb.ErrorView, accepts: ~w(html json)],
+  pubsub: [name: NotTwitterWeb.PubSub, adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
 config :logger, :console,

@@ -1,4 +1,4 @@
-defmodule DiyTwitter.Umbrella.MixProject do
+defmodule NotTwitter.Umbrella.MixProject do
   use Mix.Project
 
   def project do
@@ -38,7 +38,7 @@ defmodule DiyTwitter.Umbrella.MixProject do
       "ecto.setup": [
         "ecto.create",
         "ecto.migrate",
-        "run apps/diy_twitter/priv/repo/seeds.exs"
+        "run apps/not_twitter/priv/repo/seeds.exs"
       ],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
       test: ["ecto.create --quiet", "ecto.migrate", "test"]

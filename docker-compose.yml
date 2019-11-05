@@ -1,4 +1,4 @@
-app:
+web:
   build: .
   tty: true
   stdin_open: true
@@ -6,9 +6,6 @@ app:
     - .:/umbrella
   ports:
     - 4000:4000
-
-web:
-  extends: app
   container_name: web
   environment:
     - USER
@@ -19,21 +16,40 @@ web:
     - PG_PASSWORD=postgres
   links:
     - db
-
-tests:
-  extends: app
-  command: mix do coveralls
-  environment:
-    - USER
-    - USERNAME
-    - MIX_ENV=test
-    - PG_HOST=db
-    - PG_USERNAME=postgres
-    - PG_PASSWORD=postgres
-  links:
-    - db
+    - apm-server
 
 db:
   image: postgres:9.5
   environment:
     - POSTGRES_PASSWORD=postgres
+
+elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.1
+    environment:
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - 9200:9200
+
+kibana:
+  image: docker.elastic.co/kibana/kibana:6.5.1
+  ports:
+    - 5601:5601
+  links:
+    - elasticsearch
+
+apm-server:
+  image: docker.elastic.co/apm/apm-server:6.5.1
+  ports:
+    - 8200:8200
+  environment:
+    - output.elasticsearch.hosts=['http://elasticsearch:9200']
+    - apm-server.host=0.0.0.0:8200
+    - apm-server.secret_token="114a3022-a3b6-452f-a4b2-1888e39fa4c0"
+    - setup.kibana.host=kibana:5601
+    - setup.template.enabled=true
+    - ELASTIC_APM_DEBUG_TRANSACTIONS=true
+    - ELASTIC_APM_DEBUG_HTTP=true
+  links:
+    - kibana
+    - elasticsearch

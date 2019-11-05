@@ -17,6 +17,7 @@ defmodule DiyTwitterWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    resources "/pudins", PudimController
   end
 
   # Other scopes may use custom stacks.

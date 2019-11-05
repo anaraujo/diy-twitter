@@ -1,0 +1,26 @@
+<h1>Listing Pudins</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sabor</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for pudim <- @pudins do %>
+    <tr>
+      <td><%= pudim.sabor %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.pudim_path(@conn, :show, pudim) %></span>
+        <span><%= link "Edit", to: Routes.pudim_path(@conn, :edit, pudim) %></span>
+        <span><%= link "Delete", to: Routes.pudim_path(@conn, :delete, pudim), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Pudim", to: Routes.pudim_path(@conn, :new) %></span>

@@ -17,4 +17,4 @@ RUN mix phx.digest
 EXPOSE 4000
 EXPOSE 4001
 
-CMD ["mix", "phx.server"]
+# CMD ["mix", "phx.server"]

@@ -9,7 +9,7 @@
 # move said applications out of the umbrella.
 use Mix.Config
 
-import_config "scout_apm.exs"
+import_config "elastic_apm.exs"
 
 # Configure Mix tasks and generators
 config :diy_twitter,
@@ -19,7 +19,7 @@ config :diy_twitter_web,
   ecto_repos: [DiyTwitter.Repo],
   generators: [context_app: :diy_twitter],
   loggers: [{Ecto.LogEntry, :log, []},
-            {ScoutApm.Instruments.EctoLogger, :log, []}]
+            {ElasticAPM.Instruments.EctoLogger, :log, []}]
 
 # Configures the endpoint
 config :diy_twitter_web, DiyTwitterWeb.Endpoint,
@@ -37,8 +37,8 @@ config :logger, :console,
 config :phoenix, :json_library, Jason
 
 config :phoenix, :template_engines,
-  eex: ScoutApm.Instruments.EExEngine,
-  exs: ScoutApm.Instruments.ExsEngin
+  eex: ElasticAPM.Instruments.EExEngine,
+  exs: ElasticAPM.Instruments.ExsEngine
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

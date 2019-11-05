@@ -1,0 +1,13 @@
+<h1>Show Pudim</h1>
+
+<ul>
+
+  <li>
+    <strong>Sabor:</strong>
+    <%= @pudim.sabor %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.pudim_path(@conn, :edit, @pudim) %></span>
+<span><%= link "Back", to: Routes.pudim_path(@conn, :index) %></span>

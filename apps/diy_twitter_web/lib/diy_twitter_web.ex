@@ -20,7 +20,7 @@ defmodule DiyTwitterWeb do
   def controller do
     quote do
       use Phoenix.Controller, namespace: DiyTwitterWeb
-      use ScoutApm.Instrumentation
+      use ElasticAPM.Instrumentation
       import Plug.Conn
       import DiyTwitterWeb.Gettext
       alias DiyTwitterWeb.Router.Helpers, as: Routes

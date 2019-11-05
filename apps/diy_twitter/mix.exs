@@ -39,7 +39,8 @@ defmodule DiyTwitter.MixProject do
       {:ecto_sql, "~> 3.1"},
       {:postgrex, ">= 0.0.0"},
       {:jason, "~> 1.0"},
-      {:scout_apm, path: "deps/scout_apm", override: true}
+      # {:elastic_apm, git: "https://github.com/ateliware/apm-agent-elixir.git", branch: "feature/telemetry"}
+      {:elastic_apm, path: "deps/elastic_apm", override: true}
     ]
   end
 

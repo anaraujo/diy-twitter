@@ -32,7 +32,8 @@ defmodule DiyTwitter.Umbrella.MixProject do
   defp deps do
     [
       {:excoveralls, "~> 0.10.6", only: :test},
-      {:scout_apm, path: "deps/scout_apm", override: true}
+      # {:scout_apm, path: "deps/scout_apm", override: true}
+      {:elastic_apm, path: "deps/elastic_apm", override: true}
     ]
   end
 

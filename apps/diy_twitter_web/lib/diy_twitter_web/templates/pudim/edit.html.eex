@@ -1,0 +1,5 @@
+<h1>Edit Pudim</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.pudim_path(@conn, :update, @pudim)) %>
+
+<span><%= link "Back", to: Routes.pudim_path(@conn, :index) %></span>

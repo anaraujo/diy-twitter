@@ -10,7 +10,7 @@ defmodule DiyTwitter.Application do
       DiyTwitter.Repo
     ]
 
-    :ok = ScoutApm.Instruments.EctoTelemetry.attach(DiyTwitter.Repo)
+    :ok = ElasticAPM.Instruments.EctoTelemetry.attach(DiyTwitter.Repo)
 
     Supervisor.start_link(children, strategy: :one_for_one, name: DiyTwitter.Supervisor)
   end
